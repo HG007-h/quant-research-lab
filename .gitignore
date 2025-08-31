@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.cache/
+
+# Data
+data/**/*.parquet
+data/**/*.csv
+data/**/*.h5
+data/**/*.feather
+data/**/*.pq
+data/**/*.zip
+*.parquet
+*.csv
+*.h5
+*.feather
+*.pq
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
