@@ -29,3 +29,32 @@ data/**/*.zip
 .DS_Store
 .idea/
 .vscode/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local data
+data/
+*.parquet
+*.csv
+
+# Ignore notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment/venv files
+.env
+.venv/
+*.egg-info/
+.envrc
+
+# Ignore coverage + pytest caches
+.coverage
+htmlcov/
+.pytest_cache/
+
+# macOS cruft
+.DS_Store
+
